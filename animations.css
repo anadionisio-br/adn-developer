@@ -91,5 +91,6 @@ html.anim .gl.rv .gt{opacity:0;scale:.85;transition:opacity .6s,scale .7s var(--
 .art{animation:fl 6s ease-in-out infinite}.d-rest .art{animation:fl 6s ease-in-out infinite,spn 50s linear infinite}
 .dc,.dsel{transition:transform .25s,border-color .2s,background .2s}.dc:hover{transform:translateY(-4px)}.ch button:active,.db:active{transform:scale(.95)}#ad>*{animation:up .5s both}
 /* movimento reduzido */
+
 html.nm #cur,html.nm #pre,html.nm #fx,html.nm .aurora{display:none}html.nm *:after{animation:none!important;transition:none!important}
 @media(prefers-reduced-motion:reduce){#cur,#pre,#fx,.aurora{display:none}*:after{animation:none!important}}

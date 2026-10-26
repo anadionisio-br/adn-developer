@@ -1,5 +1,6 @@
 /* ADN Developer — animações. Carregado com defer, depois do script principal. */
 (()=>{
+    
 const $=(s,c=document)=>c.querySelector(s),$$=(s,c=document)=>[...c.querySelectorAll(s)],R=document.documentElement,raf=requestAnimationFrame;
 const calm=()=>matchMedia('(prefers-reduced-motion:reduce)').matches||R.classList.contains('nm'),start=!calm(),hov=matchMedia('(hover:hover)').matches,ease=t=>1-Math.pow(1-t,3);
 if(start)R.classList.add('anim');
